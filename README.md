@@ -16,7 +16,7 @@ pd = PriceData()
 
 #Parameters are tickers, periodsBack, periodType, errMsg
 
-prices = pd.getHistoricalData(tickers, 180, PeriodType.Day, "") # Means for these tickes get me back 180 trading days of data
+prices = pd.getHistoricalData(tickers, 180, PeriodType.Day, "") # Means for these tickers get me back 180 trading days of data
 spyPrices = prices['spy']
 
 #Get the latest closing price of SPY
